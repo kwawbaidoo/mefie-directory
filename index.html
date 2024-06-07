@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../../assets/"
+  data-template="horizontal-menu-template-no-customizer"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Footer - UI elements | Frest - Bootstrap Admin Template</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/img/favicon/favicon.ico"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="../../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/css/rtl/theme-default.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendor/libs/typeahead-js/typeahead.css"
+    />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="../../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div
+      class="layout-wrapper layout-navbar-full layout-horizontal layout-without-menu"
+    >
+      <div class="layout-container nav-shadow">
+        <!-- Navbar -->
+
+        <nav
+          class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme nav-shadow"
+          id="layout-navbar"
+        >
+          <div class="container-xxl">
+            <div class="navbar-brand app-brand demo d-none d-xl-flex py-0 me-4">
+              <a href="index.html" class="app-brand-link gap-2">
+                <span>
+                  <img
+                    class="mefi-logo"
+                    src="./assets/img/branding/mefie_logo.png"
+                    alt=""
+                  />
+                </span>
+              </a>
+
+              <a
+                href="javascript:void(0);"
+                class="layout-menu-toggle menu-link text-large ms-auto d-xl-none"
+              >
+                <i class="bx bx-x bx-sm align-middle"></i>
+              </a>
+            </div>
+
+            <div
+              class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none"
+            >
+              <a
+                class="nav-item nav-link px-0 me-xl-4"
+                href="javascript:void(0)"
+              >
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+
+            <div
+              class="navbar-nav-right d-flex align-items-center"
+              id="navbar-collapse"
+            >
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- Language -->
+                <li class="nav-item dropdown-language dropdown me-2 me-xl-0">
+                  <a
+                    class="nav-link dropdown-toggle hide-arrow"
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown"
+                  >
+                    <i class="fi fi-us fis rounded-circle fs-3 me-1"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        data-language="en"
+                      >
+                        <i class="fi fi-us fis rounded-circle fs-4 me-1"></i>
+                        <span class="align-middle">English</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        data-language="fr"
+                      >
+                        <i class="fi fi-fr fis rounded-circle fs-4 me-1"></i>
+                        <span class="align-middle">French</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        data-language="de"
+                      >
+                        <i class="fi fi-de fis rounded-circle fs-4 me-1"></i>
+                        <span class="align-middle">German</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        data-language="pt"
+                      >
+                        <i class="fi fi-pt fis rounded-circle fs-4 me-1"></i>
+                        <span class="align-middle">Portuguese</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!--/ Language -->
+
+                <!-- Search -->
+                <li class="nav-item navbar-search-wrapper me-2 me-xl-0">
+                  <a
+                    class="nav-item nav-link search-toggler"
+                    href="javascript:void(0);"
+                  >
+                    <i class="bx bx-search bx-sm"></i>
+                  </a>
+                </li>
+                <!-- /Search -->
+
+                <!-- Style Switcher -->
+                <!-- <li class="nav-item me-2 me-xl-0">
+                  <a
+                    class="nav-link style-switcher-toggle hide-arrow"
+                    href="javascript:void(0);"
+                  >
+                    <i class="bx bx-sm"></i>
+                  </a>
+                </li> -->
+                <!--/ Style Switcher -->
+
+                <!-- User -->
+                <li class="nav-item navbar-dropdown dropdown-user dropdown avatar-menu">
+                  <a
+                    class="nav-link dropdown-toggle hide-arrow "
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown"
+                  >
+                    <div class="menu-container">
+                      <!-- <img
+                        src="../../assets/img/avatars/1.png"
+                        alt
+                        class="rounded-circle"
+                      /> -->
+                      <i class='bx bx-menu ' ></i>
+                    </div>
+
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="pages-account-settings-account.html"
+                      >
+                        <div class="d-flex">
+                          <div class="flex-grow-1">
+                            <span class="fw-semibold d-block lh-1">Menu</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-profile-user.html">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">Sign Up</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="pages-account-settings-account.html"
+                      >
+                        <i class='bx bxs-business me-2'></i>
+                        <span class="align-middle">Add Business</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="pages-account-settings-billing.html"
+                      >
+                        <span class="d-flex align-items-center align-middle">
+                          <!-- <i class="flex-shrink-0 bx bx-credit-card me-2"></i> -->
+                          <i class='bx bx-log-in me-2 flex-shrink-0'></i>
+                          <span class="flex-grow-1 align-middle">Log In</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="pages-help-center-landing.html"
+                      >
+                        <i class="bx bx-support me-2"></i>
+                        <span class="align-middle">Help</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-faq.html">
+                        <i class="bx bx-help-circle me-2"></i>
+                        <span class="align-middle">FAQ</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-pricing.html">
+                        <i class="bx bx-dollar me-2"></i>
+                        <span class="align-middle">Pricing</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="auth-login-cover.html"
+                        target="_blank"
+                      >
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!--/ User -->
+              </ul>
+            </div>
+
+            <!-- Search Small Screens -->
+            <div
+              class="navbar-search-wrapper search-input-wrapper container-xxl d-none"
+            >
+              <input
+                type="text"
+                class="form-control search-input border-0"
+                placeholder="Search..."
+                aria-label="Search..."
+              />
+              <i class="bx bx-x bx-sm search-toggler cursor-pointer"></i>
+            </div>
+          </div>
+        </nav>
+
+        <!-- / Navbar -->
+        <div class="container-xxl  container-p-y hero-container">
+          <span class="title-container">
+            <h4 class="hero-title font-extrabold text-center sm:text-4xl  text-4xl leading-[60px] ">
+              Discover the trusted business to transact with around the globe
+            </h4>
+            <em class="sub-title">Stay comfortably and let's do business</em>
+          </span>
+          <div class=" heroImage-container">
+            <div class=" heroImage-one-Wreapper">
+              <img
+                class=" heroImage-one"
+                src="assets/img/pictures/woman.jpg"
+                alt=""
+              />
+  
+              <div class=" heroImage-wrapper">
+                <img class="hero-image" src="assets/img/pictures/tech.png" alt="" />
+                <img class="hero-image" src="assets/img/pictures/africaWoman.webp" alt="" />
+                <img class="hero-image" src="assets/img/pictures/africaWoman.webp" alt="" />
+                <img class="hero-image" src="assets/img/pictures/tech.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+        <div class="container-xxl">
+          <div class="search-container">
+            <ul class=" search-container-Wrapper">
+          
+              <li class="nav-item navbar-search-wrapper me-2 me-xl-0">
+                <a
+                  class="nav-item nav-link "
+                 
+                >
+                <span class="location-input">
+                  <label style="display: flex; gap:5px;  align-items: center; font-size: larger; font-weight: 800;" for="location"><i class='bx bx-current-location'></i>Location</label>
+                  <input class="search-mefie-input" type="text" placeholder="Where is the business">
+                </span>
+                <span class="location-input">
+                  <label style="display: flex; gap:5px; align-items: center; font-size: larger; font-weight: 800;" for="category"><i class='bx bx-category' ></i>Category</label>
+                  <input class="search-mefie-input" type="text" placeholder="Category">
+                </span>
+               <span class="location-input">
+                <label style="display: flex; gap:5px;  align-items: center; font-size: larger; font-weight: 800;" for="location"><i class='bx bxs-business' ></i>Business Name</label>
+                <input class="search-mefie-input" type="text" placeholder="Business name">
+               </span>
+                  <i class="bx bx-search bx-sm search-btn"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="layout-page">
+          <div class="content-wrapper">
+            <footer class="content-footer footer bg-light">
+              <div class="container container-fluid container-p-x pt-5 pb-4">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0">
+                    <h4 class="mb-3">
+                      <a
+                        href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/landing-page/"
+                        target="_blank"
+                        class="footer-text"
+                        >Frest
+                      </a>
+                    </h4>
+                    <span>Get ready for better world</span>
+                    <div class="social-icon my-3">
+                      <a
+                        href="javascript:void(0)"
+                        class="btn btn-icon btn-sm btn-facebook me-2"
+                        ><i class="bx bxl-facebook"></i
+                      ></a>
+                      <a
+                        href="javascript:void(0)"
+                        class="btn btn-icon btn-sm btn-twitter me-2"
+                        ><i class="bx bxl-twitter"></i
+                      ></a>
+                      <a
+                        href="javascript:void(0)"
+                        class="btn btn-icon btn-sm btn-linkedin me-2"
+                        ><i class="bx bxl-linkedin"></i
+                      ></a>
+                      <a
+                        href="javascript:void(0)"
+                        class="btn btn-icon btn-sm btn-github"
+                        ><i class="bx bxl-github"></i
+                      ></a>
+                    </div>
+                    <p class="pt-4">
+                      <script>
+                        document.write(new Date().getFullYear());
+                      </script>
+                      © PIXINVENT
+                    </p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3 mb-4 mb-md-0">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Career
+                          <span class="badge bg-label-primary text-capitalize"
+                            >We're hiring</span
+                          ></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Blog</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Customers</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Hire us</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >FAQs</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0">
+                    <h5>Products</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Admin Template</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >UI Kit</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Styleguide</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >API</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Documentation</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Changelog</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Affiliate Program</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Integration</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Support</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Special Offers</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Page Builder</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="footer-link d-block pb-2"
+                          >Plans & Pricing</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column"
+              >
+                <div class="mb-2 mb-md-0">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  , made with ❤️ by
+                  <a
+                    href="https://pixinvent.com"
+                    target="_blank"
+                    class="footer-link fw-semibold"
+                    >PIXINVENT</a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://themeforest.net/licenses/standard"
+                    class="footer-link me-4"
+                    target="_blank"
+                    >License</a
+                  >
+                  <a
+                    href="https://1.envato.market/pixinvent_portfolio"
+                    target="_blank"
+                    class="footer-link me-4"
+                    >More Themes</a
+                  >
+
+                  <a
+                    href="https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/documentation-bs5/"
+                    target="_blank"
+                    class="footer-link me-4"
+                    >Documentation</a
+                  >
+
+                  <a
+                    href="https://pixinvent.ticksy.com/"
+                    target="_blank"
+                    class="footer-link d-none d-sm-inline-block"
+                    >Support</a
+                  >
+                </div>
+              </div>
+            </footer>
+            <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!--/ Content wrapper -->
+        </div>
+
+        <!--/ Layout container -->
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+
+    <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
+
+    <!--/ Layout wrapper -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
+    <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
+
+    <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
+
+    <script src="../../assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+
+    <!-- Main JS -->
+    <script src="../../assets/js/main.js"></script>
+
+    <!-- Page JS -->
+  </body>
+</html>
