@@ -23,8 +23,8 @@
 }
 
 .mefi-logo {
-  width: 100px;
-  height: 40px;
+  width: 150px;
+  height: 55px;
 }
 
 .hero-title{
@@ -163,9 +163,17 @@ width: 1100px;
   background-color: rgba(155, 155, 157, 0.24);
 }
 
-.nav-shadow{
-  background-color: rgb(226, 4, 4);
+.see{
+  height: 6rem;
+  display: flex;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.nav-shadow{
+  width: 1220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
 
@@ -186,11 +194,14 @@ width: 1100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 40px;
+  width: 80px;
+  height: 50px;
   border: 1px solid #9ea3a5;
-  border-radius: 19px;
+  border-radius: 25px;
 }
+
+.menu-container:hover{
+  
 
 .app-brand-logo.demo svg {
   width: 1.7rem;

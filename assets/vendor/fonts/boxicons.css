@@ -5274,7 +5274,7 @@
 
 .bx-menu:before {
   content: "\edc2";
-  font-size: x-large;
+  font-size:50px;
 }
 
 .bx-menu-alt-left:before {
