@@ -434,6 +434,61 @@
   margin: 0px 0px 42px;
   text-align: left;
 }
+
+.recom-team {
+  color: rgb(5.9% 9% 16%);
+  display: grid;
+  font-size: 15.75px;
+  gap: 14px;
+  grid-template-columns: 51.4688px 51.4766px 51.4688px 51.4688px 51.4688px 51.4766px;
+  grid-template-rows: 182.422px 182.414px;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  margin: 28px 0px 0px;
+  width: 379px;
+  height: 379px;
+  border: 1px solid red;
+}
+
+.recom-team-image {
+  border-radius: 10.5px;
+  box-shadow: rgb(0% 0% 0% / 0) 0px 0px 0px 0px;
+  color: rgb(5.9% 9% 16%);
+  font-size: 15.75px;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  object-fit: cover;
+}
+
+.recom-team-image-one {
+  width: 117px;
+  height: 117px;
+}
+
+.team-image1 {
+  align-items: flex-end;
+  color: rgb(5.9% 9% 16%);
+  display: flex;
+  font-size: 15.75px;
+  grid-area: auto / 2 / auto / span 2;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+}
+
+.recom-team-image-two {
+  width: 182px;
+  height: 182px;
+}
+
+.recom-team-image-three {
+  width: 117px;
+  height: 117px;
+}
+
+.recom-team-image-four {
+  width: 182px;
+  height: 182px;
+}
 .app-brand-text.demo {
   font-size: 1.75rem;
   letter-spacing: -0.45px;
