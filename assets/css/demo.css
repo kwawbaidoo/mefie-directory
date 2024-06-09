@@ -440,7 +440,7 @@
   display: grid;
   font-size: 15.75px;
   gap: 14px;
-  grid-template-columns: 51.4688px 51.4766px 51.4688px 51.4688px 51.4688px 51.4766px;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 182.422px 182.414px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
@@ -464,8 +464,9 @@
   width: 117px;
   height: 117px;
 }
-
+/* 
 .team-image1 {
+  display: grid;
   align-items: flex-end;
   color: rgb(5.9% 9% 16%);
   display: flex;
@@ -475,19 +476,30 @@
   line-height: 24.5px;
 }
 
+.team-image3 {
+  display: grid;
+  border: 1px solid green;
+  color: rgb(5.9% 9% 16%);
+  font-size: 15.75px;
+  grid-area: 2 / auto / span 2 / span 2;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  align-items: flex-end;
+} */
+
 .recom-team-image-two {
   width: 182px;
   height: 182px;
 }
 
 .recom-team-image-three {
-  width: 117px;
-  height: 117px;
+  width: 182px;
+  height: 182px;
 }
 
 .recom-team-image-four {
-  width: 182px;
-  height: 182px;
+  width: 117px;
+  height: 117`px;
 }
 .app-brand-text.demo {
   font-size: 1.75rem;
