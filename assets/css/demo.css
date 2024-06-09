@@ -299,12 +299,12 @@
   width: 287px;
   height: 452px;
   border-radius: 10.5px;
-
 }
 
-.business-card:hover{
+.business-card:hover {
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;}
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
 
 .card-link {
   border-radius: 10.5px;
@@ -381,10 +381,59 @@
   cursor: pointer;
 }
 
-.business-card-selector:hover{
-  background-color: #E9ECEE;
+.business-card-selector:hover {
+  background-color: #e9ecee;
 }
 
+.recommendation-container {
+  background-image: url(../svg/icons/backImage.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  color: rgb(95% 96% 98%);
+  fill: none;
+  font-size: 15.75px;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+}
+
+.recomm-container-wrapper {
+  color: rgb(5.9% 9% 16%);
+  display: flex;
+  font-size: 15.75px;
+  justify-content: space-around;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+}
+
+.recomm-details {
+  color: rgb(5.9% 9% 16%);
+  display: flex;
+  flex-direction: column;
+  font-size: 15.75px;
+  justify-content: center;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  text-align: left;
+}
+
+.recom-tilte {
+  color: rgb(5.9% 9% 16%);
+  font-size: 31.5px;
+  font-weight: 800;
+  letter-spacing: 0.315px;
+  line-height: 35px;
+  margin: 0px 0px 21px;
+  text-align: left;
+}
+
+.recom-sub-title {
+  color: rgb(5.9% 9% 16%);
+  font-size: 17.5px;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  margin: 0px 0px 42px;
+  text-align: left;
+}
 .app-brand-text.demo {
   font-size: 1.75rem;
   letter-spacing: -0.45px;
