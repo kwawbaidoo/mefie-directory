@@ -232,7 +232,7 @@
   align-items: center;
   justify-content: center;
   padding: 70px 0px;
-  background-color: rgb(100% 100% 100%);
+  background-color: #f3f4f4;
 }
 
 .vetted-container {
@@ -385,15 +385,19 @@
   background-color: #e9ecee;
 }
 
-.recommendation-container {
-  background-image: url(../svg/icons/backImage.svg);
-  background-position: 50% 50%;
-  background-size: cover;
-  color: rgb(95% 96% 98%);
-  fill: none;
+.recommendation-continer {
+  /* background-image: url(../svg/icons/backImage.svg);
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: #f3f4f4;
+  /* fill: none; */
   font-size: 15.75px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
 }
 
 .recomm-container-wrapper {
@@ -403,6 +407,41 @@
   justify-content: space-around;
   letter-spacing: 0.315px;
   line-height: 24.5px;
+  width: 100%;
+  max-width: 1220px;
+  padding-top: 32px;
+  z-index: 100;
+}
+
+.recom-btn {
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(40, 150, 254),
+    rgb(81, 170, 254)
+  );
+  border-color: rgb(0% 0% 0% / 0);
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: rgb(0% 0% 0% / 0) 0px 0px 0px 0px;
+  color: rgb(100% 100% 100%);
+  display: flex;
+  font-size: 15.75px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  padding: 14px 21px;
+  text-align: center;
+}
+
+.svg-back{
+  position: absolute;
+}
+.recom-svg{
+  width: 21px;
+  height: 21px;
 }
 
 .recomm-details {
@@ -414,11 +453,14 @@
   letter-spacing: 0.315px;
   line-height: 24.5px;
   text-align: left;
+  justify-content: center;
+  max-width: 379px;
+  /* height: 470px; */
 }
 
 .recom-tilte {
   color: rgb(5.9% 9% 16%);
-  font-size: 31.5px;
+  font-size: 30px;
   font-weight: 800;
   letter-spacing: 0.315px;
   line-height: 35px;
@@ -428,7 +470,7 @@
 
 .recom-sub-title {
   color: rgb(5.9% 9% 16%);
-  font-size: 17.5px;
+  font-size: 18.5px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
   margin: 0px 0px 42px;
@@ -437,17 +479,20 @@
 
 .recom-team {
   color: rgb(5.9% 9% 16%);
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   font-size: 15.75px;
   gap: 14px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 182.422px 182.414px;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: 182.422px 182.414px; */
   letter-spacing: 0.315px;
   line-height: 24.5px;
-  margin: 28px 0px 0px;
+  /* margin: 28px 0px 0px; */
   width: 379px;
   height: 379px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .recom-team-image {
@@ -457,7 +502,7 @@
   font-size: 15.75px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .recom-team-image-one {
@@ -499,7 +544,7 @@
 
 .recom-team-image-four {
   width: 117px;
-  height: 117`px;
+  height: 117px;
 }
 .app-brand-text.demo {
   font-size: 1.75rem;
