@@ -434,6 +434,7 @@
   line-height: 24.5px;
   padding: 14px 21px;
   text-align: center;
+  gap: 10px;
 }
 
 .svg-back{
