@@ -527,7 +527,7 @@
 }
 
 .whyChooseUs {
-  padding: 70px 42px;
+  padding: 70px 0px;
 }
 
 .whyChooseUsWrapper {
@@ -576,7 +576,7 @@
   height: 52px;
   position: absolute;
   z-index: 10;
-  right: 300px;
+  right: 230px;
   top: -40px;
   color: rgb(32% 67% 100%);
 }
@@ -636,12 +636,16 @@
 }
 
 .service-records {
-  padding: 70px opx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0px;
 }
 
 .service-records-container {
   display: grid;
   align-items: center;
+  width: 100%;
   max-width: 1220px;
   font-size: 15.75px;
   gap: 56px;
@@ -649,7 +653,6 @@
   grid-template-rows: 532px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
-  margin: 0px 252px;
   padding: 0px 14px;
 }
 
@@ -683,6 +686,30 @@
   margin: 0px 252px;
   padding: 0px 14px;
 }
+
+.footer-layout{
+  display: flex;
+  justify-content: center;
+}
+
+.container-p-x{
+  display: flex;
+  justify-content: center;
+  width: 1220px;
+}
+
+.row{
+  width: 1220px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+}
+
+.foot{
+  width: 220px;
+}
+
 
 .app-brand-text.demo {
   font-size: 1.75rem;
