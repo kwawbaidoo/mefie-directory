@@ -641,6 +641,7 @@
 
 .service-records-container {
   display: grid;
+  align-items: center;
   max-width: 1220px;
   font-size: 15.75px;
   gap: 56px;
@@ -652,10 +653,26 @@
   padding: 0px 14px;
 }
 
-.service-records-details{
-padding:0px 0px 0px 42px;
+.service-records-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 0px 42px;
 }
 
+.service-records-subtitle {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.315px;
+  line-height: 25.5938px;
+  margin: 0px 0px 14px;
+}
+
+.service-image {
+  width: 448px;
+  height: 448px;
+}
 
 .app-brand-text.demo {
   font-size: 1.75rem;
