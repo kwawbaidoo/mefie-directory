@@ -162,7 +162,7 @@
 .see {
   height: 6rem;
   display: flex;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
 }
 .nav-shadow {
   max-width: 1220px;
@@ -437,10 +437,10 @@
   gap: 10px;
 }
 
-.svg-back{
+.svg-back {
   position: absolute;
 }
-.recom-svg{
+.recom-svg {
   width: 21px;
   height: 21px;
 }
@@ -510,28 +510,6 @@
   width: 117px;
   height: 117px;
 }
-/* 
-.team-image1 {
-  display: grid;
-  align-items: flex-end;
-  color: rgb(5.9% 9% 16%);
-  display: flex;
-  font-size: 15.75px;
-  grid-area: auto / 2 / auto / span 2;
-  letter-spacing: 0.315px;
-  line-height: 24.5px;
-}
-
-.team-image3 {
-  display: grid;
-  border: 1px solid green;
-  color: rgb(5.9% 9% 16%);
-  font-size: 15.75px;
-  grid-area: 2 / auto / span 2 / span 2;
-  letter-spacing: 0.315px;
-  line-height: 24.5px;
-  align-items: flex-end;
-} */
 
 .recom-team-image-two {
   width: 182px;
@@ -546,6 +524,117 @@
 .recom-team-image-four {
   width: 117px;
   height: 117px;
+}
+
+.whyChooseUs {
+  padding: 70px 42px;
+}
+
+.whyChooseUsWrapper {
+  color: black;
+  margin: 0px 210px;
+  padding: 0px 14px;
+  max-width: 1220px;
+  position: relative;
+}
+
+.whyChooseUs-title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 28px;
+}
+
+.whyChooseUs-titletwo {
+  display: inline;
+  font-size: 31.5px;
+  font-weight: 800;
+  letter-spacing: 0.315px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.whyUse {
+  font-size: 31.5px;
+  font-weight: 800;
+  letter-spacing: 0.315px;
+  line-height: 35px;
+  color: black;
+}
+
+.mefie-com {
+  font-size: 31.5px;
+  font-weight: 800;
+  letter-spacing: 0.315px;
+  line-height: 35px;
+  color: rgb(32% 67% 100%);
+}
+
+.whyChooseUs-titletwo svg {
+  width: 42px;
+  height: 52px;
+  position: absolute;
+  z-index: 10;
+  right: 300px;
+  top: -40px;
+  color: rgb(32% 67% 100%);
+}
+
+.whyChooseUs-card-title {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 17.5px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  margin: 0px 0px 0px 3.5px;
+  text-align: left;
+  padding: 0;
+}
+
+.card-infor {
+  font-size: 15.75px;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  margin: 0px 0px 0px 24.5px;
+  text-align: left;
+}
+
+.whyChooseUs-card-title svg {
+  width: 21px;
+  height: 21px;
+  color: rgb(32% 67% 100%);
+}
+
+
+
+.whyChooseUs-card-container {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 80px; */
+}
+
+.whyChooseUsCard {
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: rgb(5.9% 9% 16%);
+  display: flex;
+ flex-direction: column;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  padding: 14px;
+  text-align: left;
+}
+
+.whyChooseUs-card-details {
+  font-size: 16px;
 }
 .app-brand-text.demo {
   font-size: 1.75rem;
