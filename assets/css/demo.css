@@ -611,8 +611,6 @@
   color: rgb(32% 67% 100%);
 }
 
-
-
 .whyChooseUs-card-container {
   display: flex;
   gap: 28px;
@@ -626,7 +624,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: rgb(5.9% 9% 16%);
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   letter-spacing: 0.315px;
   line-height: 24.5px;
   padding: 14px;
@@ -636,6 +634,29 @@
 .whyChooseUs-card-details {
   font-size: 16px;
 }
+
+.service-records {
+  padding: 70px opx;
+}
+
+.service-records-container {
+  display: grid;
+  max-width: 1220px;
+  font-size: 15.75px;
+  gap: 56px;
+  grid-template-columns: 546px 546px;
+  grid-template-rows: 532px;
+  letter-spacing: 0.315px;
+  line-height: 24.5px;
+  margin: 0px 252px;
+  padding: 0px 14px;
+}
+
+.service-records-details{
+padding:0px 0px 0px 42px;
+}
+
+
 .app-brand-text.demo {
   font-size: 1.75rem;
   letter-spacing: -0.45px;
