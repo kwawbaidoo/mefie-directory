@@ -674,6 +674,16 @@
   height: 448px;
 }
 
+.review-container {
+  padding: 70px 0px;
+}
+
+.review-wrapper {
+  max-width: 1220px;
+  margin: 0px 252px;
+  padding: 0px 14px;
+}
+
 .app-brand-text.demo {
   font-size: 1.75rem;
   letter-spacing: -0.45px;
