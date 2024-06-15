@@ -29,13 +29,13 @@
 
 .hero-title {
   font-weight: 600;
-  color: black;
+  color: #1f3e5b;
   font-size: 40px;
 }
 
 .sub-title {
   font-size: 20px;
-  color: black;
+  color: #1f3e5b;
 }
 
 .heroImage-wrapper {
@@ -109,7 +109,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50px;
-  background-color: rgba(31, 31, 172, 0.8);
+  background-color: #1f3e5b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -206,7 +206,7 @@
 }
 
 .featured h3 {
-  color: rgb(5.9% 9% 16%);
+  color: #1f3e5b;
   text-align: center;
   font-size: 21px;
   font-weight: 700;
@@ -712,6 +712,18 @@
 
 .foot{
   width: 220px;
+}
+
+.navigation-list{
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-list li , a{
+  list-style: none;
+  font-size: 18px;
+  color: #1f3e5b;
+  font-weight: 600;
 }
 
 
