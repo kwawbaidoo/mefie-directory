@@ -742,7 +742,9 @@
 .navigation-list li,
 a {
   list-style: none;
-  font-size: 18px;
+  font-size: 14px;
+  letter-spacing: 0.315px;
+  /* font-weight: 600; */
   color: #1f3e5b;
   /* font-weight: 600; */
 }
