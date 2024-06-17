@@ -27,6 +27,10 @@
   height: 42px;
 }
 
+.menu-right{
+  width: 25px;
+}
+
 .hero-title {
   font-weight: 600;
   color: #1f3e5b;
@@ -160,27 +164,28 @@
 }
 
 .see {
-  height: 5rem;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
 }
 .nav-shadow {
   width: 100%;
   max-width: 1220px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
 }
 
-.nav-container{
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: gray;
+  height: 56px;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-container {
@@ -201,8 +206,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  height: 50px;
+  width: 60px;
+  height: 40px;
   border: 1px solid #9ea3a5;
   border-radius: 25px;
 }
@@ -448,7 +453,7 @@
   text-align: center;
   gap: 10px;
 }
-.recom-btn:hover{
+.recom-btn:hover {
   background-image: linear-gradient(
     to right bottom,
     rgb(2, 130, 250),
@@ -658,7 +663,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 70px 0px;}
+  padding: 70px 0px;
+}
 
 .service-records-container {
   display: flex;
@@ -703,18 +709,18 @@
   padding: 0px 14px;
 }
 
-.footer-layout{
+.footer-layout {
   display: flex;
   justify-content: center;
 }
 
-.container-p-x{
+.container-p-x {
   display: flex;
   justify-content: center;
   width: 1220px;
 }
 
-.row{
+.row {
   width: 1220px;
   align-items: center;
   justify-content: space-between;
@@ -722,27 +728,24 @@
   padding: 0;
 }
 
-.foot{
+.foot {
   width: 220px;
 }
 
-.navigation-list{
+.navigation-list {
   display: flex;
-  justify-content: space-evenly;
-  /* align-items: center; */
-  /* justify-content: center; */
-  border: 1px solid red;
-  /* gap: 40px; */
+  padding: 0;
+  margin: 0;
+  gap: 30px;
 }
 
-.navigation-list li , a{
- 
+.navigation-list li,
+a {
   list-style: none;
   font-size: 18px;
   color: #1f3e5b;
   /* font-weight: 600; */
 }
-
 
 .app-brand-text.demo {
   font-size: 1.75rem;
