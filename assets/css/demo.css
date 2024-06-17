@@ -23,8 +23,8 @@
 }
 
 .mefi-logo {
-  width: 150px;
-  height: 55px;
+  width: 200px;
+  height: 42px;
 }
 
 .hero-title {
@@ -160,15 +160,27 @@
 }
 
 .see {
-  height: 6rem;
+  height: 5rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
 }
 .nav-shadow {
+  width: 100%;
   max-width: 1220px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
 }
 
 .hero-container {
@@ -716,14 +728,19 @@
 
 .navigation-list{
   display: flex;
-  gap: 40px;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* justify-content: center; */
+  border: 1px solid red;
+  /* gap: 40px; */
 }
 
 .navigation-list li , a{
+ 
   list-style: none;
   font-size: 18px;
   color: #1f3e5b;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 
