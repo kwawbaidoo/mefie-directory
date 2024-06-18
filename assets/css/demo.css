@@ -668,7 +668,6 @@
   margin-top: 60px;
   width: 100%;
   /* padding: 70px 0px; */
-  border: 1px solid green;
 }
 
 .service-records-container {
@@ -681,7 +680,6 @@
   letter-spacing: 0.315px;
   line-height: 24.5px;
   margin-top: 25px;
-  border: 1px solid red;
 }
 
 .service-records-details {
