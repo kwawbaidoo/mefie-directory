@@ -213,7 +213,7 @@
 }
 
 .featured {
-  background-color: #e9ecee;
+  /* background-color: rgba(174 196 231 /43%); */
   max-width: 1220px;
   display: flex;
   align-items: center;
@@ -230,7 +230,7 @@
 }
 
 .feartured-container {
-  background-color: #e9ecee;
+  background-color: rgba(174 196 231 /43%);
   width: full;
   /* padding: 42px 56px; */
   display: flex;
@@ -646,7 +646,7 @@
 
 .whyChooseUsCard {
   border-radius: 14px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   color: rgb(5.9% 9% 16%);
   display: flex;
   flex-direction: column;
