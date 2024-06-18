@@ -414,6 +414,7 @@
   /* align-items: center; */
   justify-content: center;
   padding-top: 42px;
+  padding-bottom: 42px;
 }
 
 .recomm-container-wrapper {
@@ -426,6 +427,7 @@
   width: 100%;
   max-width: 1220px;
   z-index: 100;
+  /* border: 1px solid red; */
 }
 
 .recom-btn {
@@ -549,13 +551,15 @@
 }
 
 .whyChooseUs {
-  padding: 70px 0px;
+  margin-top: 42px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .whyChooseUsWrapper {
   color: black;
   margin: 0px 210px;
-  padding: 0px 14px;
   max-width: 1220px;
   position: relative;
 }
@@ -598,8 +602,8 @@
   height: 52px;
   position: absolute;
   z-index: 10;
-  right: 230px;
-  top: -40px;
+  right: 330px;
+  top: -35px;
   color: rgb(32% 67% 100%);
 }
 
@@ -635,7 +639,7 @@
 
 .whyChooseUs-card-container {
   display: flex;
-  gap: 28px;
+  gap: 40px;
   align-items: center;
   justify-content: space-between;
   /* margin-top: 80px; */
@@ -661,18 +665,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 70px 0px;
+  margin-top: 60px;
+  width: 100%;
+  /* padding: 70px 0px; */
+  border: 1px solid green;
 }
 
 .service-records-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   max-width: 1220px;
   font-size: 15.75px;
   gap: 56px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
-  /* padding: 0px 14px; */
+  margin-top: 25px;
+  border: 1px solid red;
 }
 
 .service-records-details {
