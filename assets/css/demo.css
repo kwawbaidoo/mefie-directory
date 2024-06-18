@@ -248,7 +248,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 70px 0px;
+  padding-top: 70px;
   background-color: #f3f4f4;
 }
 
@@ -374,7 +374,9 @@
   justify-content: center;
   letter-spacing: 0.315px;
   line-height: 24.5px;
-  margin: 42px 0px 0px;
+  /* margin: 42px 0px 0px; */
+  margin-top: 42px;
+  /* border: 1px solid blue; */
 }
 
 .business-card-selector {
@@ -403,18 +405,15 @@
 }
 
 .recommendation-continer {
-  /* background-image: url(../svg/icons/backImage.svg);
-  background-position: center;
-  background-repeat: no-repeat; */
   background-color: #f3f4f4;
   /* fill: none; */
   font-size: 15.75px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  padding: 64px;
+  padding-top: 42px;
 }
 
 .recomm-container-wrapper {
@@ -426,7 +425,6 @@
   line-height: 24.5px;
   width: 100%;
   max-width: 1220px;
-  padding-top: 32px;
   z-index: 100;
 }
 
