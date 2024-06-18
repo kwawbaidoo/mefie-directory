@@ -551,15 +551,16 @@
 }
 
 .whyChooseUs {
-  margin-top: 42px;
+  margin-top: 60px;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .whyChooseUsWrapper {
   color: black;
-  margin: 0px 210px;
+  /* margin: 0px 210px; */
   max-width: 1220px;
   position: relative;
 }
@@ -640,9 +641,7 @@
 .whyChooseUs-card-container {
   display: flex;
   gap: 40px;
-  align-items: center;
-  justify-content: space-between;
-  /* margin-top: 80px; */
+  
 }
 
 .whyChooseUsCard {
@@ -663,7 +662,7 @@
 
 .service-records {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   margin-top: 60px;
   width: 100%;
@@ -679,7 +678,7 @@
   gap: 56px;
   letter-spacing: 0.315px;
   line-height: 24.5px;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 .service-records-details {
