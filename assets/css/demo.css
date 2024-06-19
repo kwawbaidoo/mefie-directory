@@ -716,6 +716,7 @@
 .footer-layout {
   display: flex;
   justify-content: center;
+  border: 1px solid red;
 }
 
 .container-p-x {
